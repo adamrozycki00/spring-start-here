@@ -1,0 +1,19 @@
+DB_URL: jdbc:postgresql://localhost:5431/postgres
+DB_USER: postgres
+DB_PASS: postgres
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: ${DB_URL}
+    username: ${DB_USER}
+    password: ${DB_PASS}
+  sql:
+    init:
+      mode: always
+
+custom:
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USER}
+    password: ${DB_PASS}

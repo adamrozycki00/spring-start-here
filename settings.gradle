@@ -1,0 +1,3 @@
+rootProject.name = 'ssh'
+include 'service', 'openfeign', 'resttemplate'
+
